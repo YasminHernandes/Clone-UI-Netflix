@@ -1,0 +1,94 @@
+@media screen and (max-width: 700px) {
+    header {
+        height: 4.2rem;
+    }
+
+    header .container {
+        flex-direction: column;;
+    }
+
+    header .container h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-movie .container {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 561px) {
+    .main-movie .container {
+        width: 90%;
+    }
+
+    .site-map .container .icons {
+        width: 40%;
+    }
+
+    .site-map .section-items span {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 436px) {
+    .main-movie .buttons .button {
+        padding: 1rem;
+        font-size: .65rem;
+    }
+
+    .description {
+        margin-right: .7rem;
+    }
+
+    .site-map .container {
+        margin: 2rem 3rem;
+    }
+
+    .site-map .section-items span {
+        font-size: .67rem;
+    }
+
+}
+
+@media screen and (max-width: 435px) {
+    .site-map .container .icons {
+        width: 45%;
+    }
+
+    .site-map .container .section-items {
+        justify-content: space-between;
+    }
+} 
+
+@media screen and (max-width: 360px) and (min-width: 320px) {
+    .main-movie .container {
+        margin-top: 5rem;
+    }
+
+    .main-movie .buttons {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-movie .buttons .button {
+        width: 100%;
+        margin-bottom: .3rem;
+    }
+
+    .site-map .container .icons {
+        width: 70%;
+    }
+    .site-map .section-items span {
+        font-size: .55rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .description {
+        width: 50%;
+    }
+}
